@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    padding: 120px 80px;
+}
+
+.destaque{
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* INICIO */
+
+.banner{
+    background-image: url(img/banner-topo.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner .pata{
+    width: 35px;
+    height: 35px;
+    color: #3C184E;
+    margin-right: 7px;
+    max-width: 250px;
+}
+
+
+.banner .nome-petshop{
+    font-size: 40px;
+    color: #3C184E;
+}
+
+.banner .slogan-pet-shop{
+color: #3C184E;
+font-size: 18px;
+margin-top: 5px;
+}
+
+.banner-titulo-topo{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.titulo-topo{
+    font-size: 60px;
+    color: #3C184E;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.link-wpp {
+color: white;
+width: 21px;
+}
+
+.banner-titulo-topo p{
+    padding: 15px 25px;
+    border-radius: 10px ;
+    background-color: #3C184E;
+    width: 200px;  
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.container .banner-titulo-topo a{
+    color: #fff;
+}
+/*FIM BANNER - INICIO SERVICOS*/
+
+.servicos{
+    max-width: 1024px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.servicos h2{
+    text-align: center;
+    margin: 70px 0 40px 0;
+    color: #3C184E;
+    font-size: 40px;
+}
+
+.lista-servicos{
+    font-size: 24px;
+    line-height: 30px;
+    color: #3C184E;
+}
+
+.lista-servicos li{
+    margin-bottom: 20px;
+}
+
+.lista-servicos li span{
+    font-weight: bold;
+    color: #3C184E;
+    font-style: italic;
+}
+
+.card-img{
+    display: flex;   
+}
+
+.card{
+    margin:0 auto;
+    max-width: 1024px;
+    width: 190px;
+    box-shadow: 5px 15px 10px 7px gray;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+/*FIM SERVICOS - INICIO REDES SOCIAIS*/
+
+.redes-sociais{
+    background-color: #3C184E;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    height: 420px;
+    
+}
+
+.redes-sociais p{
+    font-size: 42px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.redes-sociais p span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rede1, .rede2, .rede3{
+    width: 50px ;
+    margin: 20px 5px 20px 5px;
+}
+
+/*FIM REDES SOCIAIS - INICIO MARCAS*/
+
+.marcas{
+    text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.marcas h2{
+    color: #3C184E;
+    font-size: 45px;
+    margin-top: 125px;
+    margin-bottom: 75px
+}
+
+.marcas .card-marcas{
+    padding: 20px;
+    width: 200px;
+}
+
+/*FIM MARCAS - INICIO ONDE ESTAMOS*/
+
+.Onde-estamos{
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Onde-estamos h2{
+    margin: 100px 0 45px 0;
+    color: #3C184E;
+    font-size: 40px;
+}
+
+.Onde-estamos p{
+    font-size: 24px;
+    color: #3C184E;
+}
+
+.Onde-estamos iframe{
+    max-width: 1024px;
+    width: 100%;
+    margin-top: 30px;
+    height: 560px ;
+}
+
+/*FIM ONDE ESTAMOS - INICIO RODAPE*/
+
+.rodape{
+    background: #3C184E;
+    margin-top: 150px;
+}
+
+.rodape p{
+    color: #fff;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
